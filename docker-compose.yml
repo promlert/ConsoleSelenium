@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  dockerapi:
+    image: ConsoleSelenium:latest
+    depends_on:
+      - "postgres_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
