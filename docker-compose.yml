@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   dockerapi:
-    image: ConsoleSelenium:latest
+    image: consoleSelenium:latest
     build:
       context: .
       dockerfile: Dockerfile
