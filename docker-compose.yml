@@ -4,4 +4,4 @@ services:
     image: consoleselenium:latest
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ConsoleSelenium\Dockerfile
